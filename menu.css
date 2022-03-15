@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html, body{
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, #f9c74f, #e07a5f);
+}
+.menu{
+    background-color: #9c6644;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.text{
+    font-size: xx-large;
+    font-family: 'Lobster', cursive;
+}
+.card{
+    height: 320px;
+    width: 250px;
+    background-color: #264653;
+    margin: 20px;
+    border: #fca311;
+    border-radius: 10%;
+    border-style: solid;
+    box-shadow: 3px 2px 5px #264653;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.img{
+    height: 140px;
+    width: 220px;
+    border-radius: 10%;
+}
+h3, h5{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.card:hover{
+    height: 350px;
+    width: 270px;
+    transition: all 0.3s;
+    align-items: center;
+    cursor: pointer;
+}
